@@ -14,7 +14,7 @@ const SwipingPage = () => {
     <>
       <UserViewLayout>
         <div className="grid grid-cols-3 grid-rows-4">
-        <TinderCard onSwipe={onSwipe} onCardLeftScreen={() => onCardLeftScreen('fooBar')} preventSwipe={['right', 'left']}>Hello, World!</TinderCard>
+          <TinderCard onSwipe={onSwipe} onCardLeftScreen={() => onCardLeftScreen('fooBar')} preventSwipe={['right', 'left']}>Hello, World!</TinderCard>
         </div>
       </UserViewLayout>
     </>
