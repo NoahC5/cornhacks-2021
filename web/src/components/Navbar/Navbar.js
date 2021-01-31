@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <header>
-      <nav class="bg-yellow-200 flex py-4 px-4">
+      <nav class="bg-green-900 flex py-4 px-4">
         <div class="pr-5">
           <p class="text-3xl font-bold no-underline text-grey-darkest  hover:text-blue-dark">🚀 Rokkit</p>
         </div>
