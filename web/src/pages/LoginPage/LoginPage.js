@@ -11,11 +11,11 @@ const LoginPage = () => {
   }
 
   return (
-    <div className="bg-yellow-200 flex h-screen v-screen max-w-none border-black border-1 container">
+    <div className="bg-green-500 flex h-screen v-screen max-w-none border-black border-1 container">
       <div className="m-auto space-y-5 items-center justify-center">
-        <h1 className="text-8xl text-center">🚀</h1>
-        <h1 className="text-6xl text-center font-bold">Welcome To Rokkit</h1>
-        <h2 className="text-2xl text-center font-semibold">A place for projects</h2>
+        <h1 className="text-8xl text-center">🎵</h1>
+        <h1 className="text-6xl text-center font-bold">Duet</h1>
+        <h2 className="text-2xl text-center font-semibold">A Spotify Integrated Dating App</h2>
         <div className="flex justify-evenly mt-10">
           {/* <div>test</div> */}
           <div>
@@ -24,12 +24,13 @@ const LoginPage = () => {
               className="
                 font-semibold
                 px-3 py-1
-                bg-yellow-300
                 transition duration-300 ease-in-out
                 text-4xl
                 shadow
                 rounded-lg
-                shadow-md">
+                border-2
+                border-green-800
+                shadow">
               Get Started
             </button>
           </div>
